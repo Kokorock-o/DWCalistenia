@@ -1,0 +1,65 @@
+#cabeza{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center; 
+    background-color: black;
+    width: 100%;
+    height: 500px;
+
+}
+
+.anillas{
+
+
+    background-color: black;
+    height: 40%;
+
+}
+
+.titulo{
+
+    background-color: rgb(165, 147, 73);
+    height: 40%;
+    color: white;
+    
+}
+
+
+.navegador1{
+
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+    
+}
+
+.navegador2{
+
+    color: white;
+    
+
+}
+
+.seccion_1{
+
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 500px;
+
+}
+
+.seccion_2{
+
+    height: 100%;
+    width: 90%;
+     
+    
+
+
+}
