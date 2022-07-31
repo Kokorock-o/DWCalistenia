@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    background-color: black;
+    
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 
 }
 
-#cabeza{
+.cabeza{
 
     background-color: black;
     width: 100%;
@@ -26,25 +26,10 @@ h1 {
     overflow: hidden;
     background-image: url(..//img/espaldagrande.jpg);
     justify-content: center;
-}
-.portada{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    align-items: center;
-    max-width: 100%;
-
+    
 }
 
-.volador{
-
-    margin: auto;
-    width: 100%;
-    justify-content: center;
-
-}
-
-.MINAVBAR{
+.MINAVBAR li{
 
     display: flex;
     margin: auto;
@@ -58,11 +43,34 @@ h1 {
 
 }
 
+ul{
+    padding-left: 0%;
+    margin-bottom: 0%;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
 .seccion_1{
     display: flex;
     justify-content: center;
     overflow: hidden;
 } 
+
+
+
+
+h2{
+    color: rgba(22, 189, 189, 0.685);
+}
+
+.rutinas{
+
+    background-color: azure;
+
+}
+
 
 @media screen and (max-width: 600px) {
     body {
@@ -70,8 +78,10 @@ h1 {
     }
 
     #cabeza {
-        height: 12rem;
-        background-image: url(../img/espalada_600x600.jpg);    }
+        height: rem;
+        background-image: url(../img/espalada_600x600.jpg);
+        background-size: cover;
+    }
 
     h1 {
         line-height: 10rem;
@@ -93,4 +103,11 @@ h1 {
         justify-content: center;
         
     }
+}
+
+
+.rutinas{
+
+    color: white;
+
 }
