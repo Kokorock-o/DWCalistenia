@@ -58,9 +58,6 @@ nav ul li a{
     overflow: hidden;
 } 
 
-
-
-
 h2{
     color: rgba(22, 189, 189, 0.685);
 }
@@ -70,6 +67,27 @@ h2{
     background-color: azure;
 
 }
+
+.ensalada_de_arroz{
+    width:600px;
+    height:336px;
+}
+
+.fotoBlancoNegro{
+    width:670px;
+    height:25rem;
+}
+
+.dominada{
+    width:670px;
+    height:25rem;
+}
+
+.vertical{
+    width:670px;
+    height:25rem; 
+}
+
 
 
 @media screen and (max-width: 600px) {
